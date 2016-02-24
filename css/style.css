@@ -1,0 +1,14 @@
+
+body {
+    background-color: white;
+}
+p {
+    color: grey;
+}
+.green {
+    color: green;
+}
+
+#big_headline {
+  font-size: 200%;
+}
