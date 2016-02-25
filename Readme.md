@@ -1,8 +1,3 @@
----
-tags: cssi, javascript, jquery
-level: 2
-languages: javascript
----
 #jQuery Basics
 
 The jQuery library provides hundreds of methods for interacting with an HTML page. If you are looking for something in particular, check out the [jQuery Cheatsheet](http://oscarotero.com/jquery/), which lists methods by category.
@@ -10,7 +5,7 @@ The jQuery library provides hundreds of methods for interacting with an HTML pag
 You will practice the essential methods in this prework, but don't worry about memorizing - you'll always be able to look up the syntax when you need to.
 
 ## JQuery - Selection and the DOM
-The first step in using jQuery is being able to navigate the DOM to select the elements to be acted upon.  You can select DOM elements by using the following  jQuery syntax:  
+The first step in using jQuery is being able to navigate the DOM to select the elements to be acted upon.  You can select DOM elements by using the following  jQuery syntax:
 
 ```js
 $(selector).action()
