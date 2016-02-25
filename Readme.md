@@ -77,15 +77,17 @@ It's a lot easier to talk about parents/children/siblings when you can actually 
 </body>
 ```
 
-With proper indentation, the relationships between parents, children and parents becomes clear. The two `.article` divs are children of the `#content` div.
+With proper indentation, the relationships between parents, children and parents becomes clear.
+
+The two `.article` divs are children of the `#content` div.
 
 ![call children on content](img/content-children.png)
 
-Conversely, the the `#content` is a parent to the `.article` divs.
+Conversely, the `#content` div is a parent to the `.article` divs.
 
 ![call parent on article](img/article-parent.png)
 
-The first `.article` div has two children, an H2 and a paragraph, and those two elements are siblings.
+That first `.article` div has two children, an H2 and a paragraph, and those two elements are siblings.
 
 ![call children on first article, sibling on first header](img/children-sibling.png)
 
