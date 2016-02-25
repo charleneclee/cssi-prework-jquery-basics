@@ -5,6 +5,10 @@ body {
 p {
     color: grey;
 }
+.small-caps{
+    font-variant: small-caps;
+    text-align: center;
+}
 .green {
     color: green;
 }
