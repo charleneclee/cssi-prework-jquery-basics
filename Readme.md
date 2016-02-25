@@ -79,7 +79,7 @@ It's a lot easier to talk about parents/children/siblings when you can actually 
 
 With proper indentation, the relationships between parents, children and parents becomes clear. The two `.article` divs are children of the `#content` div.
 
-![call children on content](img/#content-children.png)
+![call children on content](img/content-children.png)
 
 Conversely, the the `#content` is a parent to the `.article` divs.
 
@@ -128,7 +128,7 @@ To add an id, there's no addId() method, but you can use the attr() method inste
 $('h2').first().attr('id', 'big_headline');
 ```
 
-You can use your newfound jQuery superpowers to wreak havoc within your browser, but because these files have already been locally loaded by the server, as soon as you refresh the page, you manipulations will be gone. To manipulate pages like Google, Facebook and Instagram you will first need to add jQuery. Unlike Twitter, those pages don't have links to the jQuery library.
+You can use your newfound jQuery superpowers to wreak havoc within your browser, but because these files have already been locally loaded by the server, as soon as you refresh the page, you manipulations will be gone. To modify pages like Google, Facebook and Instagram you will first need to add jQuery. Unlike Twitter, those pages do not have links to the jQuery library.
 
 The first line in the code below creates a new `<script>` element. Then the jQuery library is linked to that element. Finally, the last line finds the `<head>` element and adds our linked `<script>` element to it.
 ```js
