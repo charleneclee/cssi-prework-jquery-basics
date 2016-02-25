@@ -47,7 +47,7 @@ $( "p" ).eq( 5 ).text('Make Love Not War')
 ##DOM Traversal(Movement)
 The DOM represents a page in a hierarchy, like a tree. Each object in the DOM is a node - the document itself, each HTML element and each block of text is a node. Just like a family tree, we describe relationships using children, parent and sibling. Any elements inside of another element are children. Conversely, an element that contains other elements is a parent element. Siblings are the other elements with the parent element.
 
-It's a lot easier to talk about parents/children/siblings when you can actually see the markup so for this section, we'll be referring to the HTML below. To code-along, open up the odd_news.html in your browser. You can do this via the command line or via the GUI (for example, Finder in iOS).
+It's a lot easier to talk about parents/children/siblings when you can actually see the markup, so for this section we'll be referring to the HTML below. To code-along, open up the `odd_news.html` file in your browser. You can do this via the command line or via the GUI (for example, Finder in iOS).
 
 ```html
 <head>
@@ -120,14 +120,15 @@ To search for any element with the small-caps class and remove it:
 $(".small-caps").removeClass("small-caps")
 ```
 
-To add an id, there's no addId() method, but you can use the attr() method instead. Just pass id and the name of the id as parameters:
+To add an id, there's no addId() method, but you can use the attr() method instead. Just pass the type of attribute (in this case "id") and the name of the attribute (in this case "big_headline") as parameters:
 ```js
 $('h2').first().attr('id', 'big_headline');
 ```
 
-You can use your newfound jQuery superpowers to wreak havoc within your browser, but because these files have already been locally loaded by the server, as soon as you refresh the page, you manipulations will be gone. To modify pages like Google, Facebook and Instagram you will first need to add jQuery. Unlike Twitter, those pages do not have links to the jQuery library.
+You can use your newfound jQuery superpowers to wreak havoc within your browser, but because these files have already been locally loaded by the server, as soon as you refresh the page, you manipulations will be gone. To modify pages like Google, Facebook and Instagram you will first need to add jQuery via the javascript console. Unlike Twitter, those pages do not have links to the jQuery library.
 
 The first line in the code below creates a new `<script>` element. Then the jQuery library is linked to that element. Finally, the last line finds the `<head>` element and adds our linked `<script>` element to it.
+
 ```js
 var jq = document.createElement('script');
 jq.src = "https://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js";
