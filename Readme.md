@@ -2,9 +2,17 @@
 
 The jQuery library provides hundreds of methods for interacting with an HTML page. If you are looking for something in particular, check out the [jQuery Cheatsheet](http://oscarotero.com/jquery/), which lists methods by category.
 
-You will practice the essential methods in this prework, but don't worry about memorizing - you'll always be able to look up the syntax when you need to.
+You will practice the essential methods in this prework, but don't worry about memorizing  - you'll always be able to look up the syntax when you need to.
 
-## JQuery - Selection and the DOM
+##Objectives
+This lesson will explain
+* DOM Selection
+* Filtering
+* DOM Traversal (Moving around the DOM)
+* Adding and Removing DOM Elements
+* Using jQuery to Modify CSS
+
+## Selection and the DOM
 The first step in using jQuery is being able to navigate the DOM to select the elements to be acted upon.  You can select DOM elements by using the following  jQuery syntax:
 
 ```js
@@ -41,8 +49,6 @@ The code below selects the fifth tweet and changes the text within. Try it out i
 ```js
 $( "p" ).eq( 5 ).text('Make Love Not War')
 ```
-
-
 
 ##DOM Traversal(Movement)
 The DOM represents a page in a hierarchy, like a tree. Each object in the DOM is a node - the document itself, each HTML element and each block of text is a node. Just like a family tree, we describe relationships using children, parent and sibling. Any elements inside of another element are children. Conversely, an element that contains other elements is a parent element. Siblings are the other elements with the parent element.
