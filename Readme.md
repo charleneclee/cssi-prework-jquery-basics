@@ -5,12 +5,12 @@ The jQuery library provides hundreds of methods for interacting with an HTML pag
 You will practice the essential methods in this prework, but don't worry about memorizing  - you'll always be able to look up the syntax when you need to.
 
 ##Objectives
-This lesson will explain
-* DOM Selection
-* Filtering
-* DOM Traversal (Moving around the DOM)
-* Adding and Removing DOM Elements
-* Using jQuery to Modify CSS
+* Understand the purpose of jQuery
+* Select elements from the DOM 
+* Filter DOM elements to increase specificity.
+* Traverse the DOM using jQuery selectors
+* Add and Remove Elements in the DOM
+* Use jQuery to Modify a site's CSS
 
 ## Selection and the DOM
 The first step in using jQuery is being able to navigate the DOM to select the elements to be acted upon.  You can select DOM elements by using the following  jQuery syntax:
