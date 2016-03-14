@@ -97,7 +97,7 @@ These three methods, `children()`, `parent()`, and `siblings()`allow you to sele
 
 
 ##Adding and Removing Elements
-You can use jQuery to add an element dynamically with `append()` or remove and element with `remove()`.
+You can use jQuery to add an element dynamically with `append()` or remove an element with `remove()`.
 Try the code below to add a final sentence to each paragraph of The Onion and to remove the header.
 ```
 $('p').append('Unbelievable!')
@@ -108,8 +108,8 @@ $('h1').remove()
 ```
 
 
-## JQuery and CSS
-In addition to modifying HTML, JQuery also works to change the style of a page. Here are some methods you can use to edit your CSS with JQuery:
+## jQuery and CSS
+In addition to modifying HTML, jQuery also works to change the style of a page. Here are some methods you can use to edit your CSS with jQuery:
 
 * addClass() - Adds one or more classes to the selected elements
 * removeClass() - Removes one or more classes from the selected elements
